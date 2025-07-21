@@ -19,5 +19,8 @@ int main() {
 	// get character from a string index
 	cout << "strVar1.at(1) = " << strVar1.at(1) <<endl;
 
+	// get double slashes in a string
+	cout << "He\'s happy. He said \"Hello!\"." << endl;
+
 	return 0;
 }
