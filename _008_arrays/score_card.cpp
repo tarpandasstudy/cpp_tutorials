@@ -2,7 +2,7 @@
 using namespace std;
 
 int main() {
-	int iScoreCard [][3] = {
+	int iScoreCard [][3] = { // During declaration, if we are assigning value to the variable, all the elements should be provided size. First array size can be omitted.
 	{78,88,67},{89,96,92},{56,78,99}
 	};
 
