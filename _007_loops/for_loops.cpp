@@ -2,6 +2,8 @@
 using namespace std;
 
 int main() {
+	// Here, we understand For loops.
+
 	int iVar1 = 7, iArray1[] = {1, 2, 3, 4, 5, 6, 7};
 
 	// for loop
@@ -17,7 +19,7 @@ int main() {
 	cout << endl;
 
 	// nested for loop
-	cout << "\nPyramid pattern.\n";
+	cout << "\nPyramid pattern\n";
 
 	for (int i=0; i<iVar1; i++) {
 		for (int j=iVar1-1; j>i; j--) {
@@ -33,7 +35,7 @@ int main() {
 	}
 
 	// for each
-	cout << "\nSquare's of numbers.\n";
+	cout << "\nSquare's of numbers\n";
 
 	for (int i : iArray1) {
 		cout << i << "^2 = " << (i*i) << endl;

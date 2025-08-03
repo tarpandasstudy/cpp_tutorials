@@ -4,6 +4,8 @@
 using namespace std;
 
 int main() {
+	// Here, we understand about Do-While loop by building a Random Number Generator.
+	
 	string strResponse = "y";
 	int iNumGenerated;
 	bool bContinue = true;

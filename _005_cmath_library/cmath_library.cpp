@@ -3,6 +3,8 @@
 using namespace std;
 
 int main() {
+	// Here, we learn about the cmath library and some operations we can do using it.
+	
 	int iVar1 = max(5, 10);
 	int iVar2 = min(5, 10);
 	float fVar1 = sqrt(97);

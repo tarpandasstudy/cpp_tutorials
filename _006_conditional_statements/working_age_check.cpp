@@ -2,6 +2,8 @@
 using namespace std;
 
 int main() {
+	// Here, we learn about If-Else statements by making a simple app to determine working age.
+	
 	int iAgeUser;
 	cout << "Enter age: ";
 	cin >> iAgeUser;

@@ -2,6 +2,8 @@
 using namespace std;
 
 int main() {
+	// Here, we learn about Short-Hand If-Else or Ternary Operator by making a simple weather response app.
+	
 	int iDayTemp;
 	cout << "Enter today's temperature : ";
 	cin >> iDayTemp;

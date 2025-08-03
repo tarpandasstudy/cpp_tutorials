@@ -2,6 +2,8 @@
 using namespace std;
 
 int main() {
+	// Here, we learn about Assignment Operators.
+	
 	int x;
 	x = 3771;
 	cout << "x = " << x << endl;

@@ -2,6 +2,8 @@
 using namespace std;
 
 int main() {
+	// Here, we learn about break and continue statements.
+	
 	string iArrayFruits[] = {"Mango", "Pineapple", "Apple", "Grapes", "Watermelon"};
 	int iArrayFruitsLength = sizeof(iArrayFruits)/sizeof(iArrayFruits[0]);
 	cout << "Fruits array: ";

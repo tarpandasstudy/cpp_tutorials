@@ -2,6 +2,8 @@
 using namespace std;
 
 int main() {
+	// Here, we understand 1-D Array.
+	
 	int iArrayAge[] = {18,22,22,34,18,58,56,40,38,42,25};
 	cout << "Age array: ";
 	for (int iAge : iArrayAge) {

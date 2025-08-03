@@ -3,11 +3,12 @@
 using namespace std;
 
 int main() {
-	string fullName;
+	// Here, we learn the use of getline() to take in strings.
 
-	// using getline
+	string fullName;
+	
 	cout << "Enter Fullname: ";
-	getline(cin, fullName);
+	getline(cin, fullName); // using getline, we get the entire string we pass in as input.
 
 	cout << "Fullname : " << fullName << endl;
 

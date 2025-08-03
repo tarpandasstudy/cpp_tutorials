@@ -2,6 +2,8 @@
 using namespace std;
 
 int main() {
+	// Here, we learn about switch statement by building a terminal based calculator.
+	
 	int iVar1, iVar2;
 	char cOperator;
 	cout << "Enter number 1: ";

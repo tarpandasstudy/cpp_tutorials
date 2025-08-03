@@ -2,10 +2,10 @@
 using namespace std;
 
 int main() {
-	string strCars[4];
-	/* Since we are not assigning values to this array during 
-	declaration, we have to specify array size.
-	*/
+	// Here, we undestand how to declare arrays first and assign values to elements later.
+	
+	string strCars[4]; //Since we are not assigning values to this array during declaration, we have to specify array size.
+
 	cout << "Empty Cars array: ";
 	for (string iCar : strCars) {
 		cout << iCar << ", ";

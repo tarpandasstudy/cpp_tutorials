@@ -3,11 +3,12 @@
 using namespace std;
 
 int main() {
+        // Here, we learn the use of cin to take in strings.
+        
         string fullName;
 
-        // using getline
         cout << "Enter Fullname: ";
-        cin >> fullName;
+        cin >> fullName; // using cin
 
         cout << "Fullname : " << fullName << endl;
 

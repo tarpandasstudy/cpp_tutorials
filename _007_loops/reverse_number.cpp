@@ -2,6 +2,8 @@
 using namespace std;
 
 int main() {
+	// Here, we understand While loops by building an app to reverse number of any digit length.
+	
 	int iVarUser, iVarReverse = 0;
 	cout << "Enter a number to reverse: " << endl;
 	cin >> iVarUser;
