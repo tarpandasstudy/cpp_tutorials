@@ -11,5 +11,7 @@ int main() {
 	cout << "Variable value : " << strCar << endl;
 	cout << "Address value : " << pointerStrCar << endl;
 
+	// Note: The pointer variable points to a variable of the same type.
+
 	return 0;
 }
