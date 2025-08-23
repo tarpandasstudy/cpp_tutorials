@@ -1,7 +1,11 @@
 #include <iostream>
 using namespace std;
 
-string myFunction(); // Function declaration
+string myFunction1(); // Function declaration if function is written after the main function.
+string myFunction2() { // Function declaration if function is written before the main function.
+	string myMessage = "I am learning  C++.";
+	return myMessage;
+}
 
 int main() {
 	// Here, we understand the basics of functions.
@@ -22,14 +26,18 @@ int main() {
 	// Example: string myFunction();
 
 	// To call a function, we do the following.
-	string message = myFunction(); // Function call
-	cout << message << endl;
+
+	string message1 = myFunction1(); // Function1 call
+	string message2 = myFunction2(); // Function2 call
+
+	cout << message1 << endl;
+	cout << message2 << endl;
 
 	// Note: We can call functions as many times we want.
 	return 0;
 }
 
-string myFunction() { // Function definition
+string myFunction1() { // Function definition
 	string wishes= "Happy Learning!";
 	return wishes;
 }
