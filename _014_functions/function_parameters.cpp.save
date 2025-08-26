@@ -1,0 +1,59 @@
+#include <iostream>
+using namespace std;
+
+void addNumbers(int iVar1, int iVar2) { // iVar1 and iVar2 are placeholders. So, they are parameters.
+	int iSum = iVar1 + iVar2;
+
+	cout << "Value 1: " << iVar1 << ", Value 2: " << iVar2 << endl;
+	cout << "Sum: " << iSum << endl;
+}
+void countryOfOrigin(string strVar1 = "USA") { // We are setting strVar1
+	cout << "Country name: " << strVar1 << endl;
+}
+void studentInfo(string strName, int iAge) {
+	cout << "Name: " << strName << "\nAge: " << iAge << endl;
+}
+int main() {
+	// Here, we understand in depth about parameters and arguments.
+
+	/*
+	1. Difference between Parameters and Arguments.
+
+	Parameters: A parameter is a variable in a function's definition that servers as a placeholder for an input value.
+	Arguments: An argument is the actual value passed to the function when it is called.
+	*/
+
+	int iVar1 = 230, iVar2 = 34;
+
+	addNumbers(iVar1, iVar2); // iVar1 and iVar2 are values passed. So, they are arguments.
+
+	/*
+	2. Default Parameter Value.
+
+	We can use default paramter value, by using the equals sign (=).
+	*/
+
+	string strVar1 = "India";
+	countryOfOrigin(strVar1);
+	countryOfOrigin(); // We can leave blank value here, and it will use the default parameter value, which is "USA".
+
+	/*
+	3. Multiple Parameters.
+
+	We can pass multiple paramters of same or different datatypes to a function.
+
+	We have already seen an example for similar datatypes in point number '1'.
+
+	Note: While working with multiple paramters, the function call must have the same number of arguments as there are parameters, and the arguments must be passed in the same order.
+	*/
+
+	string strName = "Alex";
+	int iAge = 5;
+	studentInfo(strName, iAge);
+
+	/*
+	4. Return keyword.
+
+	*/
+	return 0;
+}
