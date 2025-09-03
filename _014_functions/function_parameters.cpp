@@ -1,6 +1,10 @@
 #include <iostream>
 using namespace std;
 
+struct Car {
+	string strBrand;
+	int iYearOfPurchase;
+};
 void addNumbers(int iVar1, int iVar2) { // iVar1 and iVar2 are placeholders. So, they are parameters.
 	int iSum = iVar1 + iVar2;
 
@@ -21,6 +25,16 @@ void valueChange(int &userValue) {
 	cout << "Enter new value: ";
 	cin >> tempUserValue;
 	userValue = tempUserValue;
+}
+void readingArray(string* strFruits, int iLengthOfArray) { // Pass the pointer to the array and size pre-measured.
+	cout << "Array elements: ";
+	for(int i=0; i<iLengthOfArray; i++) {
+		cout << strFruits[i] << ", ";
+	}
+	cout << endl;
+}
+void readingStructure(Car myCar) {
+	cout << "I will buy a " << myCar.strBrand << " in " << myCar.iYearOfPurchase << ".";
 }
 int main() {
 	// Here, we understand in depth about parameters and arguments.
@@ -93,6 +107,27 @@ int main() {
 	cout << "User value before: " << inputValue1 << endl;
 	valueChange(inputValue1);
 	cout << "Changed value: " << inputValue1 << endl;
+
+	/*
+	6. Pass an array:
+
+	Sending value of an array using pointer reference to the first element.
+	*/
+
+	cout << "-> 6. Pass an array" << endl;
+	string strFruits[4] = {"Banana", "Apple", "Pineapple", "Mango"};
+	int iLengthOfArray = sizeof(strFruits)/sizeof(strFruits[0]);
+	readingArray(strFruits, iLengthOfArray);
+
+	/*
+	7. Pass an structure:
+
+	Creating a structure and passing it to a function.
+	*/
+
+	cout << "-> 7. Pass an structure" << endl;
+	Car myCar = {"Maruti Suzuki", 2031};
+	readingStructure(myCar);
 
 	return 0;
 }
