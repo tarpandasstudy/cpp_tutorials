@@ -1,0 +1,25 @@
+-> What is OOP?
+    - OOP stands for Object-Oriented Programming.
+    - Object-oriented programming is about creating 'objects', which can hold data and functions that work on the data.
+
+-> Advantages of OOP
+    - OOP provides a clear structure to programs.
+    - Makes code easier to maintain, reuse and debug.
+    - Helps keep our code DRY (Don't Repeat Yourself).
+    - Makes it possible to create full reusable applications with less code and shorter development time.
+Note: DRY principle means we should avoid writing the same code more than once. We should move repeated code into functions or classes and reuse it.
+
+-> What are classes and objects?
+    - Classes and objects are the two main aspects of OOP.
+    - A cass defines what an object should look like, and an object is created based on that class.
+        Example:
+        Class               Objects
+        Fruits              Apple, Banana, Mango
+        Car                 Volvo, Audi, Toyota
+    - When we create an object from a class, it inherits all the variables and functions defined inside that class.
+
+-> Procedural vs Object-Oriented Programming
+    - Procedural Programming is about writing functions that operate on data.
+    - Object-oriented Programming (OOP) is about creating objects that contain both the data and the functions.
+    - In procedural programming, the code is organized around functions.
+    - In object-oriented programming, the code is organized around objects.
